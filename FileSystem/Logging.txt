@@ -1,4 +1,1 @@
-16-02-2021T22:04:22: There are 15973 lines in the file. The function took 10,8518 ms to Execute
-16-02-2021T22:05:42: There are 15973 lines in the file. The function took 40,4137 ms to Execute
-16-02-2021T22:13:07: The word the appears 8090 times in the text. The function took 120,5271 ms to Execute
-16-02-2021T22:15:40: The word the appears 7423 times in the text. The function took 60,8985 ms to Execute
+
