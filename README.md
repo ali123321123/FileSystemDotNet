@@ -1,4 +1,4 @@
-**** Project : File System Manager****
+**Project : File System Manager**
 a C# console application that will manage and manipulate files.
 
 **Installation**
