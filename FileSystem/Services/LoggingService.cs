@@ -87,26 +87,29 @@ namespace FileSystemManager.Services
         public static void WordCountDracula(string word)
         {
             var stopWatch = Stopwatch.StartNew();
-            int Count = FileService.GetWordCount(word);
+            int count = FileService.GetWordCount(word);
             stopWatch.Stop();
+            if (count == 0) {
+                Console.WriteLine($"The file doesn't contain this word: {word} ");
+                    };
             double timeToExecute = stopWatch.Elapsed.TotalMilliseconds;
             Logg($" The function took {timeToExecute} ms");
-            Console.WriteLine($"The word {word} appears {Count} times in the text");
+            Console.WriteLine($"The word {word} appears {count} times in the text");
            
         }
 
         public static void Logg(string output)
         {
             var currentTime = DateTime.Now.ToString("dd'-'MM'-'yyyy'T'HH':'mm':'ss");
-            string logMessage = $"{currentTime}: {output}";
+   
             try
             {
 
-                File.AppendAllText(@loggingPath, logMessage + Environment.NewLine);
+                File.AppendAllText(@loggingPath, $"{currentTime}: {output}" + Environment.NewLine);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("error: " + ex);
+                Console.WriteLine("error occurs : " + ex);
             }
         }
 

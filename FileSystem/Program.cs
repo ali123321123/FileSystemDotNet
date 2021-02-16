@@ -5,9 +5,10 @@ namespace FileSystem
 {
     class Program
     {
-
+       
         static void Main(string[] args)
         {
+            //Show the menu 
             MenuPrompt();
         }
 
@@ -16,6 +17,8 @@ namespace FileSystem
 
         public static void MenuPrompt()
         {
+            string Input = "";
+            //All options in the menu
             Console.WriteLine("Welcome to your file system, you can choose an option under ");
             Console.WriteLine("");
             Console.WriteLine("");
@@ -31,8 +34,13 @@ namespace FileSystem
             Console.WriteLine("5_  How many lines the file has");
             Console.WriteLine("6_ How many times the specific word is found in the file");
             Console.WriteLine("7_  Exit");
-
-            string Input = Console.ReadLine();
+            try { 
+                 Input = Console.ReadLine(); 
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("error" + e.Message);
+            }
 
             switch (Input)
             {
