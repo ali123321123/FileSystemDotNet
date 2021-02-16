@@ -1,1 +1,10 @@
 
+16-02-2021T22:48:09: The function GetFileNames took 65,6914 ms
+16-02-2021T23:04:05: The function GetFileNames took 57,6901 ms
+16-02-2021T23:05:09: The function GetFileNames took 81,7643 ms
+16-02-2021T23:06:30: The function GetFileNames took 85,0358 ms
+16-02-2021T23:09:37: The GetAllFilesExcention function took 63,6713 ms
+16-02-2021T23:09:49: The function GetFileNameToDracula() took 0,1343 ms
+16-02-2021T23:09:55:  The function took 0,7755 ms
+16-02-2021T23:10:00: The function took 13,9078 ms 
+16-02-2021T23:10:11:  The function took 24,6036 ms

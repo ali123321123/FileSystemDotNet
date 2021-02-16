@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 using System.Linq;
-using System.Text.RegularExpressions;
+
 
 namespace FileSystemManager.Services
 {
@@ -64,24 +64,9 @@ namespace FileSystemManager.Services
 
 
 
-
+        // Get the count of word in Dracula
         public static int GetWordCount(string word)
         {
-
-            /*
-            int wordCount = 0;
-            Regex wholeWord = new Regex($@"\b{word}\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
-            using (StreamReader rdr = new StreamReader($"{resourcesFilepath}\\Dracula.txt"))
-            {
-                string line;
-                while ((line = rdr.ReadLine()) != null)
-                {
-                    wordCount += wholeWord.Matches(line).Count;
-                }
-            }
-            return wordCount;
-        }
-            */
             string content = File.ReadAllText(@$"{resourcesFilepath}\Dracula.txt");
             string[] words = content.Split(new char[] { '.', '.', ' ', '?', '\n', '\r' },
                   StringSplitOptions.RemoveEmptyEntries);
