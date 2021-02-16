@@ -1,0 +1,13 @@
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\obj\Debug\netcoreapp3.1\FileSystem.csprojAssemblyReference.cache
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\obj\Debug\netcoreapp3.1\FileSystem.AssemblyInfoInputs.cache
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\obj\Debug\netcoreapp3.1\FileSystem.AssemblyInfo.cs
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\obj\Debug\netcoreapp3.1\FileSystem.csproj.CoreCompileInputs.cache
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\bin\Debug\netcoreapp3.1\FileSystem.exe
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\bin\Debug\netcoreapp3.1\FileSystem.deps.json
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\bin\Debug\netcoreapp3.1\FileSystem.runtimeconfig.json
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\bin\Debug\netcoreapp3.1\FileSystem.runtimeconfig.dev.json
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\bin\Debug\netcoreapp3.1\FileSystem.dll
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\bin\Debug\netcoreapp3.1\FileSystem.pdb
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\obj\Debug\netcoreapp3.1\FileSystem.dll
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\obj\Debug\netcoreapp3.1\FileSystem.pdb
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment1\file-system\FileSystem\FileSystem\obj\Debug\netcoreapp3.1\FileSystem.genruntimeconfig.cache
